@@ -1,5 +1,5 @@
 
-require 'pry'
+#require 'pry'
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
@@ -24,4 +24,4 @@ def printer(attendees)
   assign_rooms(attendees).each {|room_greeting| puts room_greeting}
 end
 
-binding.pry
+#binding.pry
