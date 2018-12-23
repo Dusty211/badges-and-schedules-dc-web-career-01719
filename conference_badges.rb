@@ -1,5 +1,5 @@
 
-#require 'pry'
+require 'pry'
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
@@ -23,4 +23,4 @@ def printer(attendees)
   batch_badge_creator(attendees).each {|badge| puts badge}
 end
 
-#binding.pry
+binding.pry
