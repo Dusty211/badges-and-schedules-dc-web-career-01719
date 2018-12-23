@@ -1,5 +1,5 @@
 
-#require 'pry'
+require 'pry'
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
@@ -22,4 +22,4 @@ end
 def printer(attendees)
 end
 
-#binding.pry
+binding.pry
